@@ -34,28 +34,28 @@ Node.js | Express.js | MongoDB | Mongoose | JWT | bcryptjs | dotenv | cors | nod
 ## Setup Instructions
 
 1. Clone the repo  
-   ```bash
+
    git clone https://github.com/emanqamar17/backend-mini-project.git
+   
 Install dependencies
 
-bash
-Copy code
 npm install
+
 Add .env file
 
-ini
-Copy code
+
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
+
 Start the server
 
-bash
-Copy code
 npm start
+
 API runs on: http://localhost:5000
 
 Postman Testing
+
 All endpoints were tested successfully using Postman:
 
 User registration
